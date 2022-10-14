@@ -1,11 +1,128 @@
-# Hello bookdown 
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+# Notas de Aula
 
-## A section
+Neste capítulo estarão contidas todas as minhas notas de aula.
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+## Professor(a){-}
 
-### An unnumbered section {-}
+*  **Profª. Meª.** Eva Maria Lins Silva
 
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+## Aula 01 - A história da Psicologia
+
+### A Evolução da Ciência Psicologia {-}
+
+### Psicologia e História
+
+Para  [BOCK, FURTADO e TEIXEIRA (2011, p.31)](#bibliografia)^1^, tornamo-nos pouco compreensíveis se não recorrermos a **nossa história** e a **nossa perspectiva de futuro** para ==entendermos <u>quem</u> somos== e para ==entendermos <u>por que</u> somos o que somos==.  
+
+Segundo [DAVIDOFF (2001, p.8)](#bibliografia)^2^, desde os tempos ancestrais, o homem tem buscado entender a si próprio e aos outros.
+
+Para compreender a ==diversidade== com que ==a Psicologia se apresenta hoje==, na busca por essa compreensão do homem, é indispensável **recuperar a sua história** [BOCK, FURTADO e TEIXEIRA (2011, p.31)](#bibliografia)^1^
+
+### A psicologia entre os Gregos
+
+Na antiguidade, os gregos foram um dos povos mais evoluídos do seu tempo de forma que eles deixaram sua marca na história do pensamento humano.
+
+ As cidades-estado gregas proporcionaram a riqueza e o crescimento que exigiam soluções práticas para vários aspectos da vida cotidiana grega, inclusive para a organização social. Isso implicou avanços na teoria política, a invenção da democracia, entre outras conquistas que deixaram um legado para a humanidade.
+
+Uma das primeiras tentativas de sistematiza conhecimentos a respeito do homem e sua interioridade teve contribuições gregas. Dessa tentativa, deixou-se o legado:
+
+* De *Psyché* como a palavra grega que significava **alma**. Para essa alma era dedicado um estudo (*logos*), daí a origem da palavra usada até hoje, **psicologia**. Para os gregos, psicologia era o estudo da **alma**;
+* De *logos* que significa **razão**, além de significar <u>estudo</u> quando justaposta a outra palavra;
+* Para os gregos, **alma** e **espírito** ==era a mesma ==e era neles que ==se situavam==:
+  * os sentimentos;
+  * o pensamento;
+  * a irracionalidade;
+  * o desejo;
+  * a sensação
+  * a **percepção** ( era a relação do homem com o mundo );
+* Entre os gregos, havia uma ==oposição== entre **idealismo** (o mundo é concebido primeiro dentro do homem, daí ele passa a existir) e **materialismo** (o mundo existe primeiro, daí o homem o percebe)
+
+#### Para Sócrates
+
+* **Principal preocupação**: O ==limite== que separa os **homens** dos **animais**;
+* A ==razão== permite ao homem sobrepor os **instintos** (base para a irracionalidade);
+* A ==razão== é a <u>==essência==</u> da humanidade ( Esse é um caminho aberto por Sócrates que será muito explorado pela psicologia);
+* As ==teorias da consciência== são, de certa forma, frutos dessa primeira sistematização da Filosofia.
+
+#### Para Platão 
+
+* **Principal preocupação**: Definir um ==lugar== para a **razão** em nosso corpo ( a cabeça );
+* A ==cabeça== era o lugar da **razão** e da **alma**;
+* A ==medula== era um ==elemento de ligação== entre a **alma** e o **corpo**;
+* Concebia a **ALMA** ==separada== do **CORPO**;
+* Quando alguém morria:
+  * O ==corpo== desaparecia;
+  * A ==alma== ficava livre para <u>ocupar outro corpo</u>;
+
+#### Para Aristóteles
+
+* No pensamento grego, foi o ==primeiro que postulou== que ==a ALMA e o CORPO **NÃO podem ser dissossiados**==.;
+* *Psyché* era o ==princípio ativo da vida==;
+* Possui *Psyché* (alma): Quem (1) cresce, (2) se reproduz, (3) se alimenta (homens, vegetais e animais);
+	* Alma ==vegetativa==(vegetais): se reproduz / se alimenta;
+	* Alma ==sensitiva==(animais): percepção / movimento
+	* Alma ==racional==(homem): se reproduz / se alimenta / percepção / movimento
+* Esse filósofo estudou a ==diferença== entre **razão**, **percepção** e **sensação**.
+
+#### Resumo das teorias gregas sobre a Psicologia
+
+* **Platônica**: A imortalidade da ==ALMA== e sua ==**SEPARAÇÃO DO CORPO**==;
+* **Aristotélica**: Da mortalidade da ==ALMA== e da sua relação de ==**PERTENCIMENTO AO CORPO**==;
+
+### A psicologia na Idade Média
+
+Na antiguidade, após a dominação da Grécia pelos romanos e após o surgimento do cristianismo tornando-se a principal religião da idade média, dois filósofos destacam-se em relação ao ==estudo do psiquismo==.
+
+#### Santo Agostinho
+
+* Fazia **SEPARAÇÃO** entre alma e corpo;
+* **Alma**: (1) Sede da ==razão== e do ==pensamento== / (2) ==prova da manifestação divina== no homem / (3) ==imortal== / (4) Elemento que ==liga o homem a Deus==;
+
+A Igreja passa a se preocupar com a alma enquanto sede do pensamento.
+
+#### São Tomaz de Aquino
+
+A época em que São Tomaz de Aquino viveu foi marcada por diversas situações históricas importantes:
+
+* Ruptura da Igreja Católica ( aparecimento do protestantismo );
+* Revolução Francesa;
+* Revolução Industrial ( na Inglaterra );
+
+Essa situação teve como consequências:
+
+* Crise na economia mundial e na sociedade;
+* ==Questionamento== (1) da Igreja e (2) dos conhecimentos produzidos por ela;
+* Procura por novas justificativas para a relação do homem com Deus;
+
+Das questões filosóficas introduzidas pelos gregos, a distinção entre ==essência== e ==existência== foi trabalhada por São Tomaz de Aquino.
+  * **Partindo da ideia**: Que o homem, ==**na sua essência**==, busca a perfeição através de sua existência.
+  * **Afirma que**: 
+    * Só Deus seria capaz de reunir ==essência== e ==existência==;
+    * A busca de perfeição pelo homem seria a busca de Deus;
+
+### A PSICOLOGIA NO RENASCIMENTO
+
+### A ORIGEM DA PSICOLOGIA CIENTÍFICA
+
+### A PSICOLOGIA CIENTÍFICA
+
+#### O Funcionalismo
+
+#### O Estruturalismo
+
+#### Associativismo
+
+### AS PRINCIPAIS TEORIAS DA PSICOLOGIA NO SÉCULO 20
+
+#### O Behaviorismo
+
+Nasce com Watson e tem um desenvolvimento grande nos Estados Unidos, em função de suas aplicações práticas, tornou-se importante por ter definido o fato psicológico, de modo concreto, a partir da noção de comportamento (behavior).
+
+#### A Gestalt
+
+Surge na Europa como uma negação da fragmentação das ações e processos humanos, realizada pelas tendências da Psicologia científica do século 19, postulando a necessidade de se compreender o homem como uma totalidade. A Gestalt é a tendência teórica mais ligada à Filosofia.
+
+#### A Psicanálise
+
+Nasce com Freud, na Áustria, a partir da prática médica, recupera para a Psicologia a importância da afetividade e postula o inconsciente como objeto de estudo, quebrando a tradição da Psicologia como ciência da consciência e da razão.
