@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.10.10)  14 OCT 2022 11:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.10.10)  14 OCT 2022 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,22 +894,27 @@ Chapter 1.
 ]
 Chapter 2.
 
-Package natbib Warning: Citation `Book' on page 7 undefined on input line 169.
+Package natbib Warning: Citation `book' on page 7 undefined on input line 169.
 
 [7] [8
 
 ]
 Chapter 3.
-[9] [10] [11] [12]
+[9] [10] [11]
+Underfull \hbox (badness 3417) in paragraph at lines 400--400
+[][]\TU/lmr/bx/n/12 AS PRINCIPAIS TEORIAS DA PSICOLOGIA NO
+ []
+
+[12]
 Chapter 4.
 
-Overfull \hbox (17.577pt too wide) in paragraph at lines 423--424
+Overfull \hbox (17.577pt too wide) in paragraph at lines 442--443
 []\TU/lmr/m/n/10 To label an un-numbered heading, use: \TU/lmtt/m/n/10 # Hello 
 world {-#nice-label}
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 426--427
+Underfull \hbox (badness 2512) in paragraph at lines 445--446
 []\TU/lmr/m/n/10 Next, reference the labeled heading anywhere in the text using
 
  []
@@ -923,7 +928,7 @@ File: _main_files/figure-latex/nice-fig-1.pdf Graphic file (type pdf)
 ]
 Chapter 5.
 
-Underfull \hbox (badness 1924) in paragraph at lines 499--500
+Underfull \hbox (badness 1924) in paragraph at lines 518--519
 []\TU/lmr/m/n/10 Add an unnumbered part: \TU/lmtt/m/n/10 # (PART\*) Act one {-}
  \TU/lmr/m/n/10 (followed by \TU/lmtt/m/n/10 # A
  []
@@ -950,7 +955,7 @@ Package natbib Warning: There were undefined citations.
 Here is how much of TeX's memory you used:
  19374 strings out of 410939
  350823 string characters out of 2823325
- 833352 words of memory out of 3000000
+ 833179 words of memory out of 3000000
  39887 multiletter control sequences out of 15000+600000
  475750 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

@@ -1,12 +1,12 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "História da Psicologia"
+author: "Daniel Claudino"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [referencias.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+cover-image: figuras/capa-livro.png
 description: |
   Neste material, estão contidos os resumos de capítulos de livros, slides, notas de aula, apresentações, exercício respondidos em sala, atividades de revisão e questionários para as provas, além de outros materiais elaborados durante  da disciplina de História da Psicologia.
 link-citations: yes
@@ -27,4 +27,4 @@ A disciplina tem como objetivo proporcionar ao aluno os conhecimentos em relaç�
 
 ## Teste Referências 
 
-Each **bookdown** chapter [@Book]
+Each **bookdown** <amarelo>chapter</amarelo> [@book]
