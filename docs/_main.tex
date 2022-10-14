@@ -117,7 +117,7 @@
 
 \title{A Minimal Book Example}
 \author{John Doe}
-\date{2022-10-13}
+\date{2022-10-14}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -143,69 +143,261 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{about}{%
-\chapter{About}\label{about}}
+\hypertarget{sobre}{%
+\chapter{Sobre}\label{sobre}}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
+Neste material, estão contidos os resumos de capítulos de livros, slides, notas de aula, apresentações, exercício respondidos em sala, atividades de revisão e questionários para as provas, além de outros materiais elaborados durante da disciplina
 
-\hypertarget{usage}{%
-\section{Usage}\label{usage}}
+\hypertarget{histuxf3ria-da-psicologia}{%
+\chapter{História da Psicologia}\label{histuxf3ria-da-psicologia}}
 
-Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+A disciplina tem como objetivo proporcionar ao aluno os conhecimentos em relação à História da Psicologia através de suas raízes filosóficas e fisiológicas, bem como a compreensão das diversas escolas e suas epistemologias. Também pretende-se oportunizar o entendimento das diversas complexidades que envolvem as teorias psicológicas e seus respectivos autores.
 
-Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
+\hypertarget{professora}{%
+\section*{Professor(a)}\label{professora}}
+\addcontentsline{toc}{section}{Professor(a)}
 
-The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
-
-\hypertarget{render-book}{%
-\section{Render book}\label{render-book}}
-
-You can render the HTML version of this example book without changing anything:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
+\tightlist
 \item
-  Find the \textbf{Build} pane in the RStudio IDE, and
+  \textbf{Profª. Meª.} Eva Maria Lins Silva
+\end{itemize}
+
+\hypertarget{teste-referuxeancias}{%
+\section{Teste Referências}\label{teste-referuxeancias}}
+
+Each \textbf{bookdown} chapter \citep{Book}
+
+\hypertarget{notas-de-aula}{%
+\chapter{Notas de Aula}\label{notas-de-aula}}
+
+Neste capítulo estarão contidas todas as minhas notas de aula.
+
+\hypertarget{professora-1}{%
+\section*{Professor(a)}\label{professora-1}}
+\addcontentsline{toc}{section}{Professor(a)}
+
+\begin{itemize}
+\tightlist
 \item
-  Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
-\end{enumerate}
+  \textbf{Profª. Meª.} Eva Maria Lins Silva
+\end{itemize}
 
-Or build the book from the R console:
+\hypertarget{aula-01---a-histuxf3ria-da-psicologia}{%
+\section{Aula 01 - A história da Psicologia}\label{aula-01---a-histuxf3ria-da-psicologia}}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{render\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+\hypertarget{a-evoluuxe7uxe3o-da-ciuxeancia-psicologia}{%
+\subsection*{A Evolução da Ciência Psicologia}\label{a-evoluuxe7uxe3o-da-ciuxeancia-psicologia}}
+\addcontentsline{toc}{subsection}{A Evolução da Ciência Psicologia}
 
-To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
+\hypertarget{psicologia-e-histuxf3ria}{%
+\subsection{Psicologia e História}\label{psicologia-e-histuxf3ria}}
 
-\hypertarget{preview-book}{%
-\section{Preview book}\label{preview-book}}
+Para \protect\hyperlink{bibliografia}{BOCK, FURTADO e TEIXEIRA (2011, p.31)}\textsuperscript{1}, tornamo-nos pouco compreensíveis se não recorrermos a \textbf{nossa história} e a \textbf{nossa perspectiva de futuro} para ==entendermos quem somos== e para ==entendermos por que somos o que somos==.
 
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
+Segundo \protect\hyperlink{bibliografia}{DAVIDOFF (2001, p.8)}\textsuperscript{2}, desde os tempos ancestrais, o homem tem buscado entender a si próprio e aos outros.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{serve\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+Para compreender a ==diversidade== com que ==a Psicologia se apresenta hoje==, na busca por essa compreensão do homem, é indispensável \textbf{recuperar a sua história} \protect\hyperlink{bibliografia}{BOCK, FURTADO e TEIXEIRA (2011, p.31)}\textsuperscript{1}
 
-\hypertarget{hello-bookdown}{%
-\chapter{Hello bookdown}\label{hello-bookdown}}
+\hypertarget{a-psicologia-entre-os-gregos}{%
+\subsection{A psicologia entre os Gregos}\label{a-psicologia-entre-os-gregos}}
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
+Na antiguidade, os gregos foram um dos povos mais evoluídos do seu tempo de forma que eles deixaram sua marca na história do pensamento humano.
 
-\hypertarget{a-section}{%
-\section{A section}\label{a-section}}
+As cidades-estado gregas proporcionaram a riqueza e o crescimento que exigiam soluções práticas para vários aspectos da vida cotidiana grega, inclusive para a organização social. Isso implicou avanços na teoria política, a invenção da democracia, entre outras conquistas que deixaram um legado para a humanidade.
 
-All chapter sections start with a second-level (\texttt{\#\#}) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+Uma das primeiras tentativas de sistematiza conhecimentos a respeito do homem e sua interioridade teve contribuições gregas. Dessa tentativa, deixou-se o legado:
 
-\hypertarget{an-unnumbered-section}{%
-\subsection*{An unnumbered section}\label{an-unnumbered-section}}
-\addcontentsline{toc}{subsection}{An unnumbered section}
+\begin{itemize}
+\tightlist
+\item
+  De \emph{Psyché} como a palavra grega que significava \textbf{alma}. Para essa alma era dedicado um estudo (\emph{logos}), daí a origem da palavra usada até hoje, \textbf{psicologia}. Para os gregos, psicologia era o estudo da \textbf{alma};
+\item
+  De \emph{logos} que significa \textbf{razão}, além de significar estudo quando justaposta a outra palavra;
+\item
+  Para os gregos, \textbf{alma} e \textbf{espírito} ==era a mesma ==e era neles que ==se situavam==:
 
-Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
+  \begin{itemize}
+  \tightlist
+  \item
+    os sentimentos;
+  \item
+    o pensamento;
+  \item
+    a irracionalidade;
+  \item
+    o desejo;
+  \item
+    a sensação
+  \item
+    a \textbf{percepção} ( era a relação do homem com o mundo );
+  \end{itemize}
+\item
+  Entre os gregos, havia uma ==oposição== entre \textbf{idealismo} (o mundo é concebido primeiro dentro do homem, daí ele passa a existir) e \textbf{materialismo} (o mundo existe primeiro, daí o homem o percebe)
+\end{itemize}
+
+\hypertarget{para-suxf3crates}{%
+\subsubsection{Para Sócrates}\label{para-suxf3crates}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Principal preocupação}: O ==limite== que separa os \textbf{homens} dos \textbf{animais};
+\item
+  A ==razão== permite ao homem sobrepor os \textbf{instintos} (base para a irracionalidade);
+\item
+  A ==razão== é a ==essência== da humanidade ( Esse é um caminho aberto por Sócrates que será muito explorado pela psicologia);
+\item
+  As ==teorias da consciência== são, de certa forma, frutos dessa primeira sistematização da Filosofia.
+\end{itemize}
+
+\hypertarget{para-platuxe3o}{%
+\subsubsection{Para Platão}\label{para-platuxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Principal preocupação}: Definir um ==lugar== para a \textbf{razão} em nosso corpo ( a cabeça );
+\item
+  A ==cabeça== era o lugar da \textbf{razão} e da \textbf{alma};
+\item
+  A ==medula== era um ==elemento de ligação== entre a \textbf{alma} e o \textbf{corpo};
+\item
+  Concebia a \textbf{ALMA} ==separada== do \textbf{CORPO};
+\item
+  Quando alguém morria:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O ==corpo== desaparecia;
+  \item
+    A ==alma== ficava livre para ocupar outro corpo;
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{para-aristuxf3teles}{%
+\subsubsection{Para Aristóteles}\label{para-aristuxf3teles}}
+
+\begin{itemize}
+\tightlist
+\item
+  No pensamento grego, foi o ==primeiro que postulou== que ==a ALMA e o CORPO \textbf{NÃO podem ser dissossiados}==.;
+\item
+  \emph{Psyché} era o ==princípio ativo da vida==;
+\item
+  Possui \emph{Psyché} (alma): Quem (1) cresce, (2) se reproduz, (3) se alimenta (homens, vegetais e animais);
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Alma ==vegetativa==(vegetais): se reproduz / se alimenta;
+  \item
+    Alma ==sensitiva==(animais): percepção / movimento
+  \item
+    Alma ==racional==(homem): se reproduz / se alimenta / percepção / movimento
+  \end{itemize}
+\item
+  Esse filósofo estudou a ==diferença== entre \textbf{razão}, \textbf{percepção} e \textbf{sensação}.
+\end{itemize}
+
+\hypertarget{resumo-das-teorias-gregas-sobre-a-psicologia}{%
+\subsubsection{Resumo das teorias gregas sobre a Psicologia}\label{resumo-das-teorias-gregas-sobre-a-psicologia}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Platônica}: A imortalidade da ==ALMA== e sua ==\textbf{SEPARAÇÃO DO CORPO}==;
+\item
+  \textbf{Aristotélica}: Da mortalidade da ==ALMA== e da sua relação de ==\textbf{PERTENCIMENTO AO CORPO}==;
+\end{itemize}
+
+\hypertarget{a-psicologia-na-idade-muxe9dia}{%
+\subsection{A psicologia na Idade Média}\label{a-psicologia-na-idade-muxe9dia}}
+
+Na antiguidade, após a dominação da Grécia pelos romanos e após o surgimento do cristianismo tornando-se a principal religião da idade média, dois filósofos destacam-se em relação ao ==estudo do psiquismo==.
+
+\hypertarget{santo-agostinho}{%
+\subsubsection{Santo Agostinho}\label{santo-agostinho}}
+
+\begin{itemize}
+\tightlist
+\item
+  Fazia \textbf{SEPARAÇÃO} entre alma e corpo;
+\item
+  \textbf{Alma}: (1) Sede da ==razão== e do ==pensamento== / (2) ==prova da manifestação divina== no homem / (3) ==imortal== / (4) Elemento que ==liga o homem a Deus==;
+\end{itemize}
+
+A Igreja passa a se preocupar com a alma enquanto sede do pensamento.
+
+\hypertarget{suxe3o-tomaz-de-aquino}{%
+\subsubsection{São Tomaz de Aquino}\label{suxe3o-tomaz-de-aquino}}
+
+A época em que São Tomaz de Aquino viveu foi marcada por diversas situações históricas importantes:
+
+\begin{itemize}
+\tightlist
+\item
+  Ruptura da Igreja Católica ( aparecimento do protestantismo );
+\item
+  Revolução Francesa;
+\item
+  Revolução Industrial ( na Inglaterra );
+\end{itemize}
+
+Essa situação teve como consequências:
+
+\begin{itemize}
+\tightlist
+\item
+  Crise na economia mundial e na sociedade;
+\item
+  ==Questionamento== (1) da Igreja e (2) dos conhecimentos produzidos por ela;
+\item
+  Procura por novas justificativas para a relação do homem com Deus;
+\end{itemize}
+
+Das questões filosóficas introduzidas pelos gregos, a distinção entre ==essência== e ==existência== foi trabalhada por São Tomaz de Aquino.
+* \textbf{Partindo da ideia}: Que o homem, ==\textbf{na sua essência}==, busca a perfeição através de sua existência.
+* \textbf{Afirma que}:
+* Só Deus seria capaz de reunir ==essência== e ==existência==;
+* A busca de perfeição pelo homem seria a busca de Deus;
+
+\hypertarget{a-psicologia-no-renascimento}{%
+\subsection{A PSICOLOGIA NO RENASCIMENTO}\label{a-psicologia-no-renascimento}}
+
+\hypertarget{a-origem-da-psicologia-cientuxedfica}{%
+\subsection{A ORIGEM DA PSICOLOGIA CIENTÍFICA}\label{a-origem-da-psicologia-cientuxedfica}}
+
+\hypertarget{a-psicologia-cientuxedfica}{%
+\subsection{A PSICOLOGIA CIENTÍFICA}\label{a-psicologia-cientuxedfica}}
+
+\hypertarget{o-funcionalismo}{%
+\subsubsection{O Funcionalismo}\label{o-funcionalismo}}
+
+\hypertarget{o-estruturalismo}{%
+\subsubsection{O Estruturalismo}\label{o-estruturalismo}}
+
+\hypertarget{associativismo}{%
+\subsubsection{Associativismo}\label{associativismo}}
+
+\hypertarget{as-principais-teorias-da-psicologia-no-suxe9culo-20}{%
+\subsection{AS PRINCIPAIS TEORIAS DA PSICOLOGIA NO SÉCULO 20}\label{as-principais-teorias-da-psicologia-no-suxe9culo-20}}
+
+\hypertarget{o-behaviorismo}{%
+\subsubsection{O Behaviorismo}\label{o-behaviorismo}}
+
+Nasce com Watson e tem um desenvolvimento grande nos Estados Unidos, em função de suas aplicações práticas, tornou-se importante por ter definido o fato psicológico, de modo concreto, a partir da noção de comportamento (behavior).
+
+\hypertarget{a-gestalt}{%
+\subsubsection{A Gestalt}\label{a-gestalt}}
+
+Surge na Europa como uma negação da fragmentação das ações e processos humanos, realizada pelas tendências da Psicologia científica do século 19, postulando a necessidade de se compreender o homem como uma totalidade. A Gestalt é a tendência teórica mais ligada à Filosofia.
+
+\hypertarget{a-psicanuxe1lise}{%
+\subsubsection{A Psicanálise}\label{a-psicanuxe1lise}}
+
+Nasce com Freud, na Áustria, a partir da prática médica, recupera para a Psicologia a importância da afetividade e postula o inconsciente como objeto de estudo, quebrando a tradição da Psicologia como ciência da consciência e da razão.
 
 \hypertarget{cross}{%
 \chapter{Cross-references}\label{cross}}
@@ -394,6 +586,6 @@ Or use:
 \end{Shaded}
 
 
-  \bibliography{book.bib,packages.bib}
+  \bibliography{referencias.bib,packages.bib}
 
 \end{document}
